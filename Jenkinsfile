@@ -20,7 +20,7 @@ pipeline {
         stage("npm release") {
       steps {
         script {
-          // bump versions only for main or release branch builds 
+          // bump versions only for main or release branch build
 
 
           if (true) {
