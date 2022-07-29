@@ -21,7 +21,9 @@ pipeline {
       steps {
         script {
           // bump versions only for main or release branch builds 
-          //test
+          // http
+
+
           if (true) {
             sh ("npx semantic-release --debug")
           } else {
