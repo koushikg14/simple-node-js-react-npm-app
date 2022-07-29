@@ -21,7 +21,6 @@ pipeline {
       steps {
         script {
           // bump versions only for main or release branch builds 
-          // http
 
 
           if (true) {
