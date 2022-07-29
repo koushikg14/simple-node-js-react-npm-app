@@ -20,7 +20,8 @@ pipeline {
         stage("npm release") {
       steps {
         script {
-          // bump versions only for main or release branch builds
+          // bump versions only for main or release branch builds 
+          // new comment
           if (true) {
             sh ("npx semantic-release --debug")
           } else {
